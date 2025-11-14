@@ -89,7 +89,7 @@
 ## getting ids
 
 ```bash
-nix shell nixpkgs#pciutils -c lspci | grep ' VGA '"
+nix shell nixpkgs#pciutils -c lspci | grep ' VGA '
 ```
 
 ## wrappers
